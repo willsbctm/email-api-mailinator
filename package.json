@@ -1,0 +1,24 @@
+{
+  "name": "@willsbctm/email-api-mailinator",
+  "version": "1.0.0",
+  "description": "Get validation code from mailinator",
+  "main": "main.js",
+  "scripts": {
+    "test": "jest",
+    "start": "node src/code.js",
+    "build": "npm pack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/willsbctm/email-api-mailinator"
+  },
+  "author": "willsbctmorg",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.1.2",
+    "ws": "^8.9.0"
+  },
+  "devDependencies": {
+    "jest": "^29.1.2"
+  }
+}
